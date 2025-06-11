@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		178DA82059B9341E91273F02 /* Pods_YandexMobileAdsProxy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD0E32D2DDF1CF9001BE13B /* Pods_YandexMobileAdsProxy.framework */; };
+		CF45268E2DDF70FD00FDBAA4 /* YandexMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD0E2DC2DDF158F001BE13B /* YandexMobileAds.framework */; };
+		CF6A6ED42DEF092B009D9728 /* StickyBannerWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6A6ED32DEF092B009D9728 /* StickyBannerWrapper.swift */; };
+		CFD0E2CE2DDF14B1001BE13B /* InlineBannerWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD0E2CD2DDF14B1001BE13B /* InlineBannerWrapper.swift */; };
+		CFD0E3312DDF1D13001BE13B /* AppMetricaCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD0E2CF2DDF158E001BE13B /* AppMetricaCore.framework */; };
+		CFD0E3332DDF1D13001BE13B /* AppMetricaCoreExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD0E2D42DDF158F001BE13B /* AppMetricaCoreExtension.framework */; };
+		CFD0E3352DDF1D13001BE13B /* AppMetricaCoreUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD0E2E42DDF158F001BE13B /* AppMetricaCoreUtils.framework */; };
+		CFD0E3372DDF1D13001BE13B /* AppMetricaCrashes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD0E2E52DDF158F001BE13B /* AppMetricaCrashes.framework */; };
+		CFD0E3392DDF1D13001BE13B /* AppMetricaEncodingUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD0E2D22DDF158F001BE13B /* AppMetricaEncodingUtils.framework */; };
+		CFD0E33B2DDF1D13001BE13B /* AppMetricaFMDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD0E2E22DDF158F001BE13B /* AppMetricaFMDB.framework */; };
+		CFD0E33D2DDF1D13001BE13B /* AppMetricaHostState.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD0E2DD2DDF158F001BE13B /* AppMetricaHostState.framework */; };
+		CFD0E33F2DDF1D13001BE13B /* AppMetricaIdentifiers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD0E2EA2DDF158F001BE13B /* AppMetricaIdentifiers.framework */; };
+		CFD0E3412DDF1D13001BE13B /* AppMetricaKeychain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD0E2DE2DDF158F001BE13B /* AppMetricaKeychain.framework */; };
+		CFD0E3432DDF1D13001BE13B /* AppMetricaLibraryAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD0E2EC2DDF158F001BE13B /* AppMetricaLibraryAdapter.framework */; };
+		CFD0E3452DDF1D13001BE13B /* AppMetricaLog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD0E2E02DDF158F001BE13B /* AppMetricaLog.framework */; };
+		CFD0E3472DDF1D13001BE13B /* AppMetricaLogSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD0E2D62DDF158F001BE13B /* AppMetricaLogSwift.framework */; };
+		CFD0E3492DDF1D13001BE13B /* AppMetricaNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD0E2E82DDF158F001BE13B /* AppMetricaNetwork.framework */; };
+		CFD0E34B2DDF1D13001BE13B /* AppMetricaPlatform.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD0E2D02DDF158E001BE13B /* AppMetricaPlatform.framework */; };
+		CFD0E34D2DDF1D13001BE13B /* AppMetricaProtobuf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD0E2E32DDF158F001BE13B /* AppMetricaProtobuf.framework */; };
+		CFD0E34F2DDF1D13001BE13B /* AppMetricaProtobufUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD0E2DA2DDF158F001BE13B /* AppMetricaProtobufUtils.framework */; };
+		CFD0E3512DDF1D13001BE13B /* AppMetricaStorageUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD0E2DF2DDF158F001BE13B /* AppMetricaStorageUtils.framework */; };
+		CFD0E3532DDF1D13001BE13B /* AppMetricaSynchronization.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD0E2D32DDF158F001BE13B /* AppMetricaSynchronization.framework */; };
+		CFD0E3552DDF1D13001BE13B /* DivKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD0E2E72DDF158F001BE13B /* DivKit.framework */; };
+		CFD0E3572DDF1D13001BE13B /* DivKitBinaryCompatibilityFacade.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD0E2E92DDF158F001BE13B /* DivKitBinaryCompatibilityFacade.framework */; };
+		CFD0E3592DDF1D13001BE13B /* KSCrash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD0E2D72DDF158F001BE13B /* KSCrash.framework */; };
+		CFD0E35B2DDF1D13001BE13B /* LayoutKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD0E2D92DDF158F001BE13B /* LayoutKit.framework */; };
+		CFD0E35D2DDF1D13001BE13B /* LayoutKitInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD0E2D52DDF158F001BE13B /* LayoutKitInterface.framework */; };
+		CFD0E35F2DDF1D13001BE13B /* Pods_YandexMobileAdsProxy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD0E2E12DDF158F001BE13B /* Pods_YandexMobileAdsProxy.framework */; };
+		CFD0E3612DDF1D13001BE13B /* Serialization.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD0E2EB2DDF158F001BE13B /* Serialization.framework */; };
+		CFD0E3632DDF1D13001BE13B /* VGSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD0E2E62DDF158F001BE13B /* VGSL.framework */; };
+		CFD0E3652DDF1D13001BE13B /* VGSLFundamentals.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD0E2D12DDF158F001BE13B /* VGSLFundamentals.framework */; };
+		CFD0E3672DDF1D13001BE13B /* VGSLNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD0E2DB2DDF158F001BE13B /* VGSLNetworking.framework */; };
+		CFD0E3692DDF1D13001BE13B /* VGSLUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD0E2D82DDF158F001BE13B /* VGSLUI.framework */; };
+		CFF891322DD4F2BD00E55C85 /* YandexMobileAdsProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = CFF891302DD4F2BD00E55C85 /* YandexMobileAdsProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFF891362DD4F37A00E55C85 /* MobileAdsWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF891352DD4F37A00E55C85 /* MobileAdsWrapper.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6EE12770A732740EAEEFF998 /* Pods_YandexMobileAdsProxy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YandexMobileAdsProxy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BEA08059C096864A6B66322 /* Pods-YandexMobileAdsProxy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YandexMobileAdsProxy.debug.xcconfig"; path = "Target Support Files/Pods-YandexMobileAdsProxy/Pods-YandexMobileAdsProxy.debug.xcconfig"; sourceTree = "<group>"; };
+		C064A150BA5A1F558D6341EF /* Pods-YandexMobileAdsProxy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YandexMobileAdsProxy.release.xcconfig"; path = "Target Support Files/Pods-YandexMobileAdsProxy/Pods-YandexMobileAdsProxy.release.xcconfig"; sourceTree = "<group>"; };
+		CF6A6ED32DEF092B009D9728 /* StickyBannerWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickyBannerWrapper.swift; sourceTree = "<group>"; };
+		CFD0E2CD2DDF14B1001BE13B /* InlineBannerWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InlineBannerWrapper.swift; sourceTree = "<group>"; };
+		CFD0E2CF2DDF158E001BE13B /* AppMetricaCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppMetricaCore.framework; path = Frameworks/AppMetricaCore.framework; sourceTree = "<group>"; };
+		CFD0E2D02DDF158E001BE13B /* AppMetricaPlatform.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppMetricaPlatform.framework; path = Frameworks/AppMetricaPlatform.framework; sourceTree = "<group>"; };
+		CFD0E2D12DDF158F001BE13B /* VGSLFundamentals.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VGSLFundamentals.framework; path = Frameworks/VGSLFundamentals.framework; sourceTree = "<group>"; };
+		CFD0E2D22DDF158F001BE13B /* AppMetricaEncodingUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppMetricaEncodingUtils.framework; path = Frameworks/AppMetricaEncodingUtils.framework; sourceTree = "<group>"; };
+		CFD0E2D32DDF158F001BE13B /* AppMetricaSynchronization.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppMetricaSynchronization.framework; path = Frameworks/AppMetricaSynchronization.framework; sourceTree = "<group>"; };
+		CFD0E2D42DDF158F001BE13B /* AppMetricaCoreExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppMetricaCoreExtension.framework; path = Frameworks/AppMetricaCoreExtension.framework; sourceTree = "<group>"; };
+		CFD0E2D52DDF158F001BE13B /* LayoutKitInterface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LayoutKitInterface.framework; path = Frameworks/LayoutKitInterface.framework; sourceTree = "<group>"; };
+		CFD0E2D62DDF158F001BE13B /* AppMetricaLogSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppMetricaLogSwift.framework; path = Frameworks/AppMetricaLogSwift.framework; sourceTree = "<group>"; };
+		CFD0E2D72DDF158F001BE13B /* KSCrash.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KSCrash.framework; path = Frameworks/KSCrash.framework; sourceTree = "<group>"; };
+		CFD0E2D82DDF158F001BE13B /* VGSLUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VGSLUI.framework; path = Frameworks/VGSLUI.framework; sourceTree = "<group>"; };
+		CFD0E2D92DDF158F001BE13B /* LayoutKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LayoutKit.framework; path = Frameworks/LayoutKit.framework; sourceTree = "<group>"; };
+		CFD0E2DA2DDF158F001BE13B /* AppMetricaProtobufUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppMetricaProtobufUtils.framework; path = Frameworks/AppMetricaProtobufUtils.framework; sourceTree = "<group>"; };
+		CFD0E2DB2DDF158F001BE13B /* VGSLNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VGSLNetworking.framework; path = Frameworks/VGSLNetworking.framework; sourceTree = "<group>"; };
+		CFD0E2DC2DDF158F001BE13B /* YandexMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YandexMobileAds.framework; path = Frameworks/YandexMobileAds.framework; sourceTree = "<group>"; };
+		CFD0E2DD2DDF158F001BE13B /* AppMetricaHostState.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppMetricaHostState.framework; path = Frameworks/AppMetricaHostState.framework; sourceTree = "<group>"; };
+		CFD0E2DE2DDF158F001BE13B /* AppMetricaKeychain.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppMetricaKeychain.framework; path = Frameworks/AppMetricaKeychain.framework; sourceTree = "<group>"; };
+		CFD0E2DF2DDF158F001BE13B /* AppMetricaStorageUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppMetricaStorageUtils.framework; path = Frameworks/AppMetricaStorageUtils.framework; sourceTree = "<group>"; };
+		CFD0E2E02DDF158F001BE13B /* AppMetricaLog.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppMetricaLog.framework; path = Frameworks/AppMetricaLog.framework; sourceTree = "<group>"; };
+		CFD0E2E12DDF158F001BE13B /* Pods_YandexMobileAdsProxy.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_YandexMobileAdsProxy.framework; path = Frameworks/Pods_YandexMobileAdsProxy.framework; sourceTree = "<group>"; };
+		CFD0E2E22DDF158F001BE13B /* AppMetricaFMDB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppMetricaFMDB.framework; path = Frameworks/AppMetricaFMDB.framework; sourceTree = "<group>"; };
+		CFD0E2E32DDF158F001BE13B /* AppMetricaProtobuf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppMetricaProtobuf.framework; path = Frameworks/AppMetricaProtobuf.framework; sourceTree = "<group>"; };
+		CFD0E2E42DDF158F001BE13B /* AppMetricaCoreUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppMetricaCoreUtils.framework; path = Frameworks/AppMetricaCoreUtils.framework; sourceTree = "<group>"; };
+		CFD0E2E52DDF158F001BE13B /* AppMetricaCrashes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppMetricaCrashes.framework; path = Frameworks/AppMetricaCrashes.framework; sourceTree = "<group>"; };
+		CFD0E2E62DDF158F001BE13B /* VGSL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VGSL.framework; path = Frameworks/VGSL.framework; sourceTree = "<group>"; };
+		CFD0E2E72DDF158F001BE13B /* DivKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DivKit.framework; path = Frameworks/DivKit.framework; sourceTree = "<group>"; };
+		CFD0E2E82DDF158F001BE13B /* AppMetricaNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppMetricaNetwork.framework; path = Frameworks/AppMetricaNetwork.framework; sourceTree = "<group>"; };
+		CFD0E2E92DDF158F001BE13B /* DivKitBinaryCompatibilityFacade.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DivKitBinaryCompatibilityFacade.framework; path = Frameworks/DivKitBinaryCompatibilityFacade.framework; sourceTree = "<group>"; };
+		CFD0E2EA2DDF158F001BE13B /* AppMetricaIdentifiers.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppMetricaIdentifiers.framework; path = Frameworks/AppMetricaIdentifiers.framework; sourceTree = "<group>"; };
+		CFD0E2EB2DDF158F001BE13B /* Serialization.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Serialization.framework; path = Frameworks/Serialization.framework; sourceTree = "<group>"; };
+		CFD0E2EC2DDF158F001BE13B /* AppMetricaLibraryAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppMetricaLibraryAdapter.framework; path = Frameworks/AppMetricaLibraryAdapter.framework; sourceTree = "<group>"; };
+		CFD0E32D2DDF1CF9001BE13B /* Pods_YandexMobileAdsProxy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_YandexMobileAdsProxy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFF891252DD4F2B600E55C85 /* YandexMobileAdsProxy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YandexMobileAdsProxy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFF891302DD4F2BD00E55C85 /* YandexMobileAdsProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YandexMobileAdsProxy.h; sourceTree = "<group>"; };
+		CFF891352DD4F37A00E55C85 /* MobileAdsWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileAdsWrapper.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFF891222DD4F2B600E55C85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFD0E3312DDF1D13001BE13B /* AppMetricaCore.framework in Frameworks */,
+				CFD0E3512DDF1D13001BE13B /* AppMetricaStorageUtils.framework in Frameworks */,
+				CFD0E34B2DDF1D13001BE13B /* AppMetricaPlatform.framework in Frameworks */,
+				CFD0E3652DDF1D13001BE13B /* VGSLFundamentals.framework in Frameworks */,
+				CFD0E35B2DDF1D13001BE13B /* LayoutKit.framework in Frameworks */,
+				CFD0E3572DDF1D13001BE13B /* DivKitBinaryCompatibilityFacade.framework in Frameworks */,
+				CFD0E3612DDF1D13001BE13B /* Serialization.framework in Frameworks */,
+				CFD0E3492DDF1D13001BE13B /* AppMetricaNetwork.framework in Frameworks */,
+				CFD0E3672DDF1D13001BE13B /* VGSLNetworking.framework in Frameworks */,
+				CFD0E35D2DDF1D13001BE13B /* LayoutKitInterface.framework in Frameworks */,
+				CFD0E35F2DDF1D13001BE13B /* Pods_YandexMobileAdsProxy.framework in Frameworks */,
+				CFD0E3472DDF1D13001BE13B /* AppMetricaLogSwift.framework in Frameworks */,
+				CFD0E3552DDF1D13001BE13B /* DivKit.framework in Frameworks */,
+				CFD0E33B2DDF1D13001BE13B /* AppMetricaFMDB.framework in Frameworks */,
+				CF45268E2DDF70FD00FDBAA4 /* YandexMobileAds.framework in Frameworks */,
+				CFD0E3432DDF1D13001BE13B /* AppMetricaLibraryAdapter.framework in Frameworks */,
+				CFD0E33D2DDF1D13001BE13B /* AppMetricaHostState.framework in Frameworks */,
+				CFD0E34D2DDF1D13001BE13B /* AppMetricaProtobuf.framework in Frameworks */,
+				CFD0E3412DDF1D13001BE13B /* AppMetricaKeychain.framework in Frameworks */,
+				CFD0E3592DDF1D13001BE13B /* KSCrash.framework in Frameworks */,
+				CFD0E3332DDF1D13001BE13B /* AppMetricaCoreExtension.framework in Frameworks */,
+				CFD0E3532DDF1D13001BE13B /* AppMetricaSynchronization.framework in Frameworks */,
+				CFD0E3372DDF1D13001BE13B /* AppMetricaCrashes.framework in Frameworks */,
+				CFD0E3352DDF1D13001BE13B /* AppMetricaCoreUtils.framework in Frameworks */,
+				CFD0E3392DDF1D13001BE13B /* AppMetricaEncodingUtils.framework in Frameworks */,
+				CFD0E3632DDF1D13001BE13B /* VGSL.framework in Frameworks */,
+				CFD0E33F2DDF1D13001BE13B /* AppMetricaIdentifiers.framework in Frameworks */,
+				CFD0E3452DDF1D13001BE13B /* AppMetricaLog.framework in Frameworks */,
+				CFD0E3692DDF1D13001BE13B /* VGSLUI.framework in Frameworks */,
+				CFD0E34F2DDF1D13001BE13B /* AppMetricaProtobufUtils.framework in Frameworks */,
+				178DA82059B9341E91273F02 /* Pods_YandexMobileAdsProxy.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09FCF28B0CB4F37A9ED4F531 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7BEA08059C096864A6B66322 /* Pods-YandexMobileAdsProxy.debug.xcconfig */,
+				C064A150BA5A1F558D6341EF /* Pods-YandexMobileAdsProxy.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		1C284C18262380E25F6393AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CFD0E32D2DDF1CF9001BE13B /* Pods_YandexMobileAdsProxy.framework */,
+				CFD0E2CF2DDF158E001BE13B /* AppMetricaCore.framework */,
+				CFD0E2D42DDF158F001BE13B /* AppMetricaCoreExtension.framework */,
+				CFD0E2E42DDF158F001BE13B /* AppMetricaCoreUtils.framework */,
+				CFD0E2E52DDF158F001BE13B /* AppMetricaCrashes.framework */,
+				CFD0E2D22DDF158F001BE13B /* AppMetricaEncodingUtils.framework */,
+				CFD0E2E22DDF158F001BE13B /* AppMetricaFMDB.framework */,
+				CFD0E2DD2DDF158F001BE13B /* AppMetricaHostState.framework */,
+				CFD0E2EA2DDF158F001BE13B /* AppMetricaIdentifiers.framework */,
+				CFD0E2DE2DDF158F001BE13B /* AppMetricaKeychain.framework */,
+				CFD0E2EC2DDF158F001BE13B /* AppMetricaLibraryAdapter.framework */,
+				CFD0E2E02DDF158F001BE13B /* AppMetricaLog.framework */,
+				CFD0E2D62DDF158F001BE13B /* AppMetricaLogSwift.framework */,
+				CFD0E2E82DDF158F001BE13B /* AppMetricaNetwork.framework */,
+				CFD0E2D02DDF158E001BE13B /* AppMetricaPlatform.framework */,
+				CFD0E2E32DDF158F001BE13B /* AppMetricaProtobuf.framework */,
+				CFD0E2DA2DDF158F001BE13B /* AppMetricaProtobufUtils.framework */,
+				CFD0E2DF2DDF158F001BE13B /* AppMetricaStorageUtils.framework */,
+				CFD0E2D32DDF158F001BE13B /* AppMetricaSynchronization.framework */,
+				CFD0E2E72DDF158F001BE13B /* DivKit.framework */,
+				CFD0E2E92DDF158F001BE13B /* DivKitBinaryCompatibilityFacade.framework */,
+				CFD0E2D72DDF158F001BE13B /* KSCrash.framework */,
+				CFD0E2D92DDF158F001BE13B /* LayoutKit.framework */,
+				CFD0E2D52DDF158F001BE13B /* LayoutKitInterface.framework */,
+				CFD0E2E12DDF158F001BE13B /* Pods_YandexMobileAdsProxy.framework */,
+				CFD0E2EB2DDF158F001BE13B /* Serialization.framework */,
+				CFD0E2E62DDF158F001BE13B /* VGSL.framework */,
+				CFD0E2D12DDF158F001BE13B /* VGSLFundamentals.framework */,
+				CFD0E2DB2DDF158F001BE13B /* VGSLNetworking.framework */,
+				CFD0E2D82DDF158F001BE13B /* VGSLUI.framework */,
+				CFD0E2DC2DDF158F001BE13B /* YandexMobileAds.framework */,
+				6EE12770A732740EAEEFF998 /* Pods_YandexMobileAdsProxy.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CFF8911B2DD4F2B600E55C85 = {
+			isa = PBXGroup;
+			children = (
+				CF6A6ED32DEF092B009D9728 /* StickyBannerWrapper.swift */,
+				CFD0E2CD2DDF14B1001BE13B /* InlineBannerWrapper.swift */,
+				CFF891352DD4F37A00E55C85 /* MobileAdsWrapper.swift */,
+				CFF891312DD4F2BD00E55C85 /* YandexMobileAdsProxy */,
+				CFF891262DD4F2B600E55C85 /* Products */,
+				09FCF28B0CB4F37A9ED4F531 /* Pods */,
+				1C284C18262380E25F6393AF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CFF891262DD4F2B600E55C85 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFF891252DD4F2B600E55C85 /* YandexMobileAdsProxy.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFF891312DD4F2BD00E55C85 /* YandexMobileAdsProxy */ = {
+			isa = PBXGroup;
+			children = (
+				CFF891302DD4F2BD00E55C85 /* YandexMobileAdsProxy.h */,
+			);
+			path = YandexMobileAdsProxy;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CFF891202DD4F2B600E55C85 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFF891322DD4F2BD00E55C85 /* YandexMobileAdsProxy.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		CFF891242DD4F2B600E55C85 /* YandexMobileAdsProxy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFF8912B2DD4F2B600E55C85 /* Build configuration list for PBXNativeTarget "YandexMobileAdsProxy" */;
+			buildPhases = (
+				FE78C09D155D17198BA2F7EE /* [CP] Check Pods Manifest.lock */,
+				CFF891202DD4F2B600E55C85 /* Headers */,
+				CFF891212DD4F2B600E55C85 /* Sources */,
+				CFF891222DD4F2B600E55C85 /* Frameworks */,
+				CFF891232DD4F2B600E55C85 /* Resources */,
+				8827710E8D2B926D3B00603E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YandexMobileAdsProxy;
+			productName = YandexMobileAdsProxy;
+			productReference = CFF891252DD4F2B600E55C85 /* YandexMobileAdsProxy.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFF8911C2DD4F2B600E55C85 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					CFF891242DD4F2B600E55C85 = {
+						CreatedOnToolsVersion = 16.2;
+						LastSwiftMigration = 1620;
+					};
+				};
+			};
+			buildConfigurationList = CFF8911F2DD4F2B600E55C85 /* Build configuration list for PBXProject "YandexMobileAdsProxy" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFF8911B2DD4F2B600E55C85;
+			productRefGroup = CFF891262DD4F2B600E55C85 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFF891242DD4F2B600E55C85 /* YandexMobileAdsProxy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFF891232DD4F2B600E55C85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8827710E8D2B926D3B00603E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YandexMobileAdsProxy/Pods-YandexMobileAdsProxy-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YandexMobileAdsProxy/Pods-YandexMobileAdsProxy-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YandexMobileAdsProxy/Pods-YandexMobileAdsProxy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE78C09D155D17198BA2F7EE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YandexMobileAdsProxy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFF891212DD4F2B600E55C85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFF891362DD4F37A00E55C85 /* MobileAdsWrapper.swift in Sources */,
+				CF6A6ED42DEF092B009D9728 /* StickyBannerWrapper.swift in Sources */,
+				CFD0E2CE2DDF14B1001BE13B /* InlineBannerWrapper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CFF8912C2DD4F2B600E55C85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BEA08059C096864A6B66322 /* Pods-YandexMobileAdsProxy.debug.xcconfig */;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = mh_dylib;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = serenity.YandexMobileAdsProxy;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CFF8912D2DD4F2B600E55C85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C064A150BA5A1F558D6341EF /* Pods-YandexMobileAdsProxy.release.xcconfig */;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = mh_dylib;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = serenity.YandexMobileAdsProxy;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		CFF8912E2DD4F2B600E55C85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CFF8912F2DD4F2B600E55C85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFF8911F2DD4F2B600E55C85 /* Build configuration list for PBXProject "YandexMobileAdsProxy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFF8912E2DD4F2B600E55C85 /* Debug */,
+				CFF8912F2DD4F2B600E55C85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFF8912B2DD4F2B600E55C85 /* Build configuration list for PBXNativeTarget "YandexMobileAdsProxy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFF8912C2DD4F2B600E55C85 /* Debug */,
+				CFF8912D2DD4F2B600E55C85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFF8911C2DD4F2B600E55C85 /* Project object */;
+}

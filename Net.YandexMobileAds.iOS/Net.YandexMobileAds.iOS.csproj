@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0-ios</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>true</ImplicitUsings>
+        <IsBindingProject>true</IsBindingProject>
+        <NoBindingEmbedding>true</NoBindingEmbedding>
+        <RootNamespace>Net.YandexMobileAds.iOS</RootNamespace>
+        <AssemblyName>Net.YandexMobileAds.iOS</AssemblyName>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Version>7.8.0.1</Version>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ObjcBindingApiDefinition Include="ApiDefinition.cs"/>
+        <ObjcBindingCoreSource Include="StructsAndEnums.cs"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <NativeReference Include="..\Native\iOS\YandexMobileAdsProxy\xcframeworks\YandexMobileAdsProxy.xcframework">
+            <Kind>Framework</Kind>
+            <ForceLoad>True</ForceLoad>
+            <Frameworks>AVFoundation AdSupport CoreGraphics CoreImage CoreLocation CoreMedia CoreTelephony Foundation Network QuartzCore StoreKit SystemConfiguration UIKit WebKit</Frameworks>
+            <LinkerFlags>-ObjC</LinkerFlags>
+        </NativeReference>
+    </ItemGroup>
+
+</Project>

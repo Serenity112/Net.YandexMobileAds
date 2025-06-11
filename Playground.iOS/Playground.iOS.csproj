@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0-ios</TargetFramework>
+        <OutputType>Exe</OutputType>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>true</ImplicitUsings>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <SupportedOSPlatformVersion>13.0</SupportedOSPlatformVersion>
+        <CreatePackage>false</CreatePackage>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Reference Include="Net.YandexMobileAds.iOS">
+            <HintPath>..\Net.YandexMobileAds.iOS\bin\Release\net8.0-ios\Net.YandexMobileAds.iOS.dll</HintPath>
+        </Reference>
+    </ItemGroup>
+
+</Project>
