@@ -7,80 +7,79 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		178DA82059B9341E91273F02 /* Pods_YandexMobileAdsProxy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD0E32D2DDF1CF9001BE13B /* Pods_YandexMobileAdsProxy.framework */; };
-		CF45268E2DDF70FD00FDBAA4 /* YandexMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD0E2DC2DDF158F001BE13B /* YandexMobileAds.framework */; };
 		CF6A6ED42DEF092B009D9728 /* StickyBannerWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6A6ED32DEF092B009D9728 /* StickyBannerWrapper.swift */; };
+		CF7F14062F4EFF4600EEDF7A /* AppMetricaCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF7F13E92F4EFF4600EEDF7A /* AppMetricaCore.framework */; };
+		CF7F14082F4EFF4600EEDF7A /* AppMetricaCoreExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF7F13EA2F4EFF4600EEDF7A /* AppMetricaCoreExtension.framework */; };
+		CF7F140A2F4EFF4600EEDF7A /* AppMetricaCoreUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF7F13EB2F4EFF4600EEDF7A /* AppMetricaCoreUtils.framework */; };
+		CF7F140C2F4EFF4600EEDF7A /* AppMetricaCrashes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF7F13EC2F4EFF4600EEDF7A /* AppMetricaCrashes.framework */; };
+		CF7F140E2F4EFF4600EEDF7A /* AppMetricaEncodingUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF7F13ED2F4EFF4600EEDF7A /* AppMetricaEncodingUtils.framework */; };
+		CF7F14102F4EFF4600EEDF7A /* AppMetricaFMDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF7F13EE2F4EFF4600EEDF7A /* AppMetricaFMDB.framework */; };
+		CF7F14122F4EFF4600EEDF7A /* AppMetricaHostState.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF7F13EF2F4EFF4600EEDF7A /* AppMetricaHostState.framework */; };
+		CF7F14142F4EFF4600EEDF7A /* AppMetricaIdentifiers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF7F13F02F4EFF4600EEDF7A /* AppMetricaIdentifiers.framework */; };
+		CF7F14162F4EFF4600EEDF7A /* AppMetricaKeychain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF7F13F12F4EFF4600EEDF7A /* AppMetricaKeychain.framework */; };
+		CF7F14182F4EFF4600EEDF7A /* AppMetricaLibraryAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF7F13F22F4EFF4600EEDF7A /* AppMetricaLibraryAdapter.framework */; };
+		CF7F141A2F4EFF4600EEDF7A /* AppMetricaLog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF7F13F32F4EFF4600EEDF7A /* AppMetricaLog.framework */; };
+		CF7F141C2F4EFF4600EEDF7A /* AppMetricaLogSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF7F13F42F4EFF4600EEDF7A /* AppMetricaLogSwift.framework */; };
+		CF7F141E2F4EFF4600EEDF7A /* AppMetricaNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF7F13F52F4EFF4600EEDF7A /* AppMetricaNetwork.framework */; };
+		CF7F14202F4EFF4600EEDF7A /* AppMetricaPlatform.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF7F13F62F4EFF4600EEDF7A /* AppMetricaPlatform.framework */; };
+		CF7F14222F4EFF4600EEDF7A /* AppMetricaProtobuf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF7F13F72F4EFF4600EEDF7A /* AppMetricaProtobuf.framework */; };
+		CF7F14242F4EFF4600EEDF7A /* AppMetricaProtobufUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF7F13F82F4EFF4600EEDF7A /* AppMetricaProtobufUtils.framework */; };
+		CF7F14262F4EFF4600EEDF7A /* AppMetricaStorageUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF7F13F92F4EFF4600EEDF7A /* AppMetricaStorageUtils.framework */; };
+		CF7F14282F4EFF4600EEDF7A /* AppMetricaSynchronization.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF7F13FA2F4EFF4600EEDF7A /* AppMetricaSynchronization.framework */; };
+		CF7F142A2F4EFF4600EEDF7A /* DivKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF7F13FB2F4EFF4600EEDF7A /* DivKit.framework */; };
+		CF7F142C2F4EFF4600EEDF7A /* DivKitBinaryCompatibilityFacade.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF7F13FC2F4EFF4600EEDF7A /* DivKitBinaryCompatibilityFacade.framework */; };
+		CF7F142E2F4EFF4600EEDF7A /* KSCrash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF7F13FD2F4EFF4600EEDF7A /* KSCrash.framework */; };
+		CF7F14302F4EFF4600EEDF7A /* LayoutKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF7F13FE2F4EFF4600EEDF7A /* LayoutKit.framework */; };
+		CF7F14322F4EFF4600EEDF7A /* LayoutKitInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF7F13FF2F4EFF4600EEDF7A /* LayoutKitInterface.framework */; };
+		CF7F14342F4EFF4600EEDF7A /* Pods_YandexMobileAdsProxy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF7F14002F4EFF4600EEDF7A /* Pods_YandexMobileAdsProxy.framework */; };
+		CF7F14362F4EFF4600EEDF7A /* Serialization.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF7F14012F4EFF4600EEDF7A /* Serialization.framework */; };
+		CF7F14382F4EFF4600EEDF7A /* VGSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF7F14022F4EFF4600EEDF7A /* VGSL.framework */; };
+		CF7F143A2F4EFF4600EEDF7A /* VGSLFundamentals.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF7F14032F4EFF4600EEDF7A /* VGSLFundamentals.framework */; };
+		CF7F143C2F4EFF4600EEDF7A /* VGSLNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF7F14042F4EFF4600EEDF7A /* VGSLNetworking.framework */; };
+		CF7F143E2F4EFF4600EEDF7A /* VGSLUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF7F14052F4EFF4600EEDF7A /* VGSLUI.framework */; };
+		CF7F14422F4F2D8300EEDF7A /* AppMetricaCrashes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF7F14412F4F2D8300EEDF7A /* AppMetricaCrashes.framework */; };
 		CFD0E2CE2DDF14B1001BE13B /* InlineBannerWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD0E2CD2DDF14B1001BE13B /* InlineBannerWrapper.swift */; };
-		CFD0E3312DDF1D13001BE13B /* AppMetricaCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD0E2CF2DDF158E001BE13B /* AppMetricaCore.framework */; };
-		CFD0E3332DDF1D13001BE13B /* AppMetricaCoreExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD0E2D42DDF158F001BE13B /* AppMetricaCoreExtension.framework */; };
-		CFD0E3352DDF1D13001BE13B /* AppMetricaCoreUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD0E2E42DDF158F001BE13B /* AppMetricaCoreUtils.framework */; };
-		CFD0E3372DDF1D13001BE13B /* AppMetricaCrashes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD0E2E52DDF158F001BE13B /* AppMetricaCrashes.framework */; };
-		CFD0E3392DDF1D13001BE13B /* AppMetricaEncodingUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD0E2D22DDF158F001BE13B /* AppMetricaEncodingUtils.framework */; };
-		CFD0E33B2DDF1D13001BE13B /* AppMetricaFMDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD0E2E22DDF158F001BE13B /* AppMetricaFMDB.framework */; };
-		CFD0E33D2DDF1D13001BE13B /* AppMetricaHostState.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD0E2DD2DDF158F001BE13B /* AppMetricaHostState.framework */; };
-		CFD0E33F2DDF1D13001BE13B /* AppMetricaIdentifiers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD0E2EA2DDF158F001BE13B /* AppMetricaIdentifiers.framework */; };
-		CFD0E3412DDF1D13001BE13B /* AppMetricaKeychain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD0E2DE2DDF158F001BE13B /* AppMetricaKeychain.framework */; };
-		CFD0E3432DDF1D13001BE13B /* AppMetricaLibraryAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD0E2EC2DDF158F001BE13B /* AppMetricaLibraryAdapter.framework */; };
-		CFD0E3452DDF1D13001BE13B /* AppMetricaLog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD0E2E02DDF158F001BE13B /* AppMetricaLog.framework */; };
-		CFD0E3472DDF1D13001BE13B /* AppMetricaLogSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD0E2D62DDF158F001BE13B /* AppMetricaLogSwift.framework */; };
-		CFD0E3492DDF1D13001BE13B /* AppMetricaNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD0E2E82DDF158F001BE13B /* AppMetricaNetwork.framework */; };
-		CFD0E34B2DDF1D13001BE13B /* AppMetricaPlatform.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD0E2D02DDF158E001BE13B /* AppMetricaPlatform.framework */; };
-		CFD0E34D2DDF1D13001BE13B /* AppMetricaProtobuf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD0E2E32DDF158F001BE13B /* AppMetricaProtobuf.framework */; };
-		CFD0E34F2DDF1D13001BE13B /* AppMetricaProtobufUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD0E2DA2DDF158F001BE13B /* AppMetricaProtobufUtils.framework */; };
-		CFD0E3512DDF1D13001BE13B /* AppMetricaStorageUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD0E2DF2DDF158F001BE13B /* AppMetricaStorageUtils.framework */; };
-		CFD0E3532DDF1D13001BE13B /* AppMetricaSynchronization.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD0E2D32DDF158F001BE13B /* AppMetricaSynchronization.framework */; };
-		CFD0E3552DDF1D13001BE13B /* DivKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD0E2E72DDF158F001BE13B /* DivKit.framework */; };
-		CFD0E3572DDF1D13001BE13B /* DivKitBinaryCompatibilityFacade.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD0E2E92DDF158F001BE13B /* DivKitBinaryCompatibilityFacade.framework */; };
-		CFD0E3592DDF1D13001BE13B /* KSCrash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD0E2D72DDF158F001BE13B /* KSCrash.framework */; };
-		CFD0E35B2DDF1D13001BE13B /* LayoutKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD0E2D92DDF158F001BE13B /* LayoutKit.framework */; };
-		CFD0E35D2DDF1D13001BE13B /* LayoutKitInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD0E2D52DDF158F001BE13B /* LayoutKitInterface.framework */; };
-		CFD0E35F2DDF1D13001BE13B /* Pods_YandexMobileAdsProxy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD0E2E12DDF158F001BE13B /* Pods_YandexMobileAdsProxy.framework */; };
-		CFD0E3612DDF1D13001BE13B /* Serialization.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD0E2EB2DDF158F001BE13B /* Serialization.framework */; };
-		CFD0E3632DDF1D13001BE13B /* VGSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD0E2E62DDF158F001BE13B /* VGSL.framework */; };
-		CFD0E3652DDF1D13001BE13B /* VGSLFundamentals.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD0E2D12DDF158F001BE13B /* VGSLFundamentals.framework */; };
-		CFD0E3672DDF1D13001BE13B /* VGSLNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD0E2DB2DDF158F001BE13B /* VGSLNetworking.framework */; };
-		CFD0E3692DDF1D13001BE13B /* VGSLUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD0E2D82DDF158F001BE13B /* VGSLUI.framework */; };
 		CFF891322DD4F2BD00E55C85 /* YandexMobileAdsProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = CFF891302DD4F2BD00E55C85 /* YandexMobileAdsProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CFF891362DD4F37A00E55C85 /* MobileAdsWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF891352DD4F37A00E55C85 /* MobileAdsWrapper.swift */; };
+		E19455F3408C7544490C4B03 /* Pods_YandexMobileAdsProxy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0D43B49FACA6EB5F62FE062 /* Pods_YandexMobileAdsProxy.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6EE12770A732740EAEEFF998 /* Pods_YandexMobileAdsProxy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YandexMobileAdsProxy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BEA08059C096864A6B66322 /* Pods-YandexMobileAdsProxy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YandexMobileAdsProxy.debug.xcconfig"; path = "Target Support Files/Pods-YandexMobileAdsProxy/Pods-YandexMobileAdsProxy.debug.xcconfig"; sourceTree = "<group>"; };
+		A0D43B49FACA6EB5F62FE062 /* Pods_YandexMobileAdsProxy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YandexMobileAdsProxy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C064A150BA5A1F558D6341EF /* Pods-YandexMobileAdsProxy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YandexMobileAdsProxy.release.xcconfig"; path = "Target Support Files/Pods-YandexMobileAdsProxy/Pods-YandexMobileAdsProxy.release.xcconfig"; sourceTree = "<group>"; };
 		CF6A6ED32DEF092B009D9728 /* StickyBannerWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickyBannerWrapper.swift; sourceTree = "<group>"; };
+		CF7F13E92F4EFF4600EEDF7A /* AppMetricaCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AppMetricaCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF7F13EA2F4EFF4600EEDF7A /* AppMetricaCoreExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AppMetricaCoreExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF7F13EB2F4EFF4600EEDF7A /* AppMetricaCoreUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AppMetricaCoreUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF7F13EC2F4EFF4600EEDF7A /* AppMetricaCrashes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AppMetricaCrashes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF7F13ED2F4EFF4600EEDF7A /* AppMetricaEncodingUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AppMetricaEncodingUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF7F13EE2F4EFF4600EEDF7A /* AppMetricaFMDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AppMetricaFMDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF7F13EF2F4EFF4600EEDF7A /* AppMetricaHostState.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AppMetricaHostState.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF7F13F02F4EFF4600EEDF7A /* AppMetricaIdentifiers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AppMetricaIdentifiers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF7F13F12F4EFF4600EEDF7A /* AppMetricaKeychain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AppMetricaKeychain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF7F13F22F4EFF4600EEDF7A /* AppMetricaLibraryAdapter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AppMetricaLibraryAdapter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF7F13F32F4EFF4600EEDF7A /* AppMetricaLog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AppMetricaLog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF7F13F42F4EFF4600EEDF7A /* AppMetricaLogSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AppMetricaLogSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF7F13F52F4EFF4600EEDF7A /* AppMetricaNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AppMetricaNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF7F13F62F4EFF4600EEDF7A /* AppMetricaPlatform.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AppMetricaPlatform.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF7F13F72F4EFF4600EEDF7A /* AppMetricaProtobuf.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AppMetricaProtobuf.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF7F13F82F4EFF4600EEDF7A /* AppMetricaProtobufUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AppMetricaProtobufUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF7F13F92F4EFF4600EEDF7A /* AppMetricaStorageUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AppMetricaStorageUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF7F13FA2F4EFF4600EEDF7A /* AppMetricaSynchronization.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AppMetricaSynchronization.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF7F13FB2F4EFF4600EEDF7A /* DivKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DivKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF7F13FC2F4EFF4600EEDF7A /* DivKitBinaryCompatibilityFacade.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DivKitBinaryCompatibilityFacade.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF7F13FD2F4EFF4600EEDF7A /* KSCrash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = KSCrash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF7F13FE2F4EFF4600EEDF7A /* LayoutKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LayoutKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF7F13FF2F4EFF4600EEDF7A /* LayoutKitInterface.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LayoutKitInterface.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF7F14002F4EFF4600EEDF7A /* Pods_YandexMobileAdsProxy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_YandexMobileAdsProxy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF7F14012F4EFF4600EEDF7A /* Serialization.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Serialization.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF7F14022F4EFF4600EEDF7A /* VGSL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = VGSL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF7F14032F4EFF4600EEDF7A /* VGSLFundamentals.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = VGSLFundamentals.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF7F14042F4EFF4600EEDF7A /* VGSLNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = VGSLNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF7F14052F4EFF4600EEDF7A /* VGSLUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = VGSLUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF7F14412F4F2D8300EEDF7A /* AppMetricaCrashes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AppMetricaCrashes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFD0E2CD2DDF14B1001BE13B /* InlineBannerWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InlineBannerWrapper.swift; sourceTree = "<group>"; };
-		CFD0E2CF2DDF158E001BE13B /* AppMetricaCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppMetricaCore.framework; path = Frameworks/AppMetricaCore.framework; sourceTree = "<group>"; };
-		CFD0E2D02DDF158E001BE13B /* AppMetricaPlatform.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppMetricaPlatform.framework; path = Frameworks/AppMetricaPlatform.framework; sourceTree = "<group>"; };
-		CFD0E2D12DDF158F001BE13B /* VGSLFundamentals.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VGSLFundamentals.framework; path = Frameworks/VGSLFundamentals.framework; sourceTree = "<group>"; };
-		CFD0E2D22DDF158F001BE13B /* AppMetricaEncodingUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppMetricaEncodingUtils.framework; path = Frameworks/AppMetricaEncodingUtils.framework; sourceTree = "<group>"; };
-		CFD0E2D32DDF158F001BE13B /* AppMetricaSynchronization.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppMetricaSynchronization.framework; path = Frameworks/AppMetricaSynchronization.framework; sourceTree = "<group>"; };
-		CFD0E2D42DDF158F001BE13B /* AppMetricaCoreExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppMetricaCoreExtension.framework; path = Frameworks/AppMetricaCoreExtension.framework; sourceTree = "<group>"; };
-		CFD0E2D52DDF158F001BE13B /* LayoutKitInterface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LayoutKitInterface.framework; path = Frameworks/LayoutKitInterface.framework; sourceTree = "<group>"; };
-		CFD0E2D62DDF158F001BE13B /* AppMetricaLogSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppMetricaLogSwift.framework; path = Frameworks/AppMetricaLogSwift.framework; sourceTree = "<group>"; };
-		CFD0E2D72DDF158F001BE13B /* KSCrash.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KSCrash.framework; path = Frameworks/KSCrash.framework; sourceTree = "<group>"; };
-		CFD0E2D82DDF158F001BE13B /* VGSLUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VGSLUI.framework; path = Frameworks/VGSLUI.framework; sourceTree = "<group>"; };
-		CFD0E2D92DDF158F001BE13B /* LayoutKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LayoutKit.framework; path = Frameworks/LayoutKit.framework; sourceTree = "<group>"; };
-		CFD0E2DA2DDF158F001BE13B /* AppMetricaProtobufUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppMetricaProtobufUtils.framework; path = Frameworks/AppMetricaProtobufUtils.framework; sourceTree = "<group>"; };
-		CFD0E2DB2DDF158F001BE13B /* VGSLNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VGSLNetworking.framework; path = Frameworks/VGSLNetworking.framework; sourceTree = "<group>"; };
-		CFD0E2DC2DDF158F001BE13B /* YandexMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YandexMobileAds.framework; path = Frameworks/YandexMobileAds.framework; sourceTree = "<group>"; };
-		CFD0E2DD2DDF158F001BE13B /* AppMetricaHostState.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppMetricaHostState.framework; path = Frameworks/AppMetricaHostState.framework; sourceTree = "<group>"; };
-		CFD0E2DE2DDF158F001BE13B /* AppMetricaKeychain.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppMetricaKeychain.framework; path = Frameworks/AppMetricaKeychain.framework; sourceTree = "<group>"; };
-		CFD0E2DF2DDF158F001BE13B /* AppMetricaStorageUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppMetricaStorageUtils.framework; path = Frameworks/AppMetricaStorageUtils.framework; sourceTree = "<group>"; };
-		CFD0E2E02DDF158F001BE13B /* AppMetricaLog.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppMetricaLog.framework; path = Frameworks/AppMetricaLog.framework; sourceTree = "<group>"; };
-		CFD0E2E12DDF158F001BE13B /* Pods_YandexMobileAdsProxy.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_YandexMobileAdsProxy.framework; path = Frameworks/Pods_YandexMobileAdsProxy.framework; sourceTree = "<group>"; };
-		CFD0E2E22DDF158F001BE13B /* AppMetricaFMDB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppMetricaFMDB.framework; path = Frameworks/AppMetricaFMDB.framework; sourceTree = "<group>"; };
-		CFD0E2E32DDF158F001BE13B /* AppMetricaProtobuf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppMetricaProtobuf.framework; path = Frameworks/AppMetricaProtobuf.framework; sourceTree = "<group>"; };
-		CFD0E2E42DDF158F001BE13B /* AppMetricaCoreUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppMetricaCoreUtils.framework; path = Frameworks/AppMetricaCoreUtils.framework; sourceTree = "<group>"; };
-		CFD0E2E52DDF158F001BE13B /* AppMetricaCrashes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppMetricaCrashes.framework; path = Frameworks/AppMetricaCrashes.framework; sourceTree = "<group>"; };
-		CFD0E2E62DDF158F001BE13B /* VGSL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VGSL.framework; path = Frameworks/VGSL.framework; sourceTree = "<group>"; };
-		CFD0E2E72DDF158F001BE13B /* DivKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DivKit.framework; path = Frameworks/DivKit.framework; sourceTree = "<group>"; };
-		CFD0E2E82DDF158F001BE13B /* AppMetricaNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppMetricaNetwork.framework; path = Frameworks/AppMetricaNetwork.framework; sourceTree = "<group>"; };
-		CFD0E2E92DDF158F001BE13B /* DivKitBinaryCompatibilityFacade.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DivKitBinaryCompatibilityFacade.framework; path = Frameworks/DivKitBinaryCompatibilityFacade.framework; sourceTree = "<group>"; };
-		CFD0E2EA2DDF158F001BE13B /* AppMetricaIdentifiers.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppMetricaIdentifiers.framework; path = Frameworks/AppMetricaIdentifiers.framework; sourceTree = "<group>"; };
-		CFD0E2EB2DDF158F001BE13B /* Serialization.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Serialization.framework; path = Frameworks/Serialization.framework; sourceTree = "<group>"; };
-		CFD0E2EC2DDF158F001BE13B /* AppMetricaLibraryAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppMetricaLibraryAdapter.framework; path = Frameworks/AppMetricaLibraryAdapter.framework; sourceTree = "<group>"; };
-		CFD0E32D2DDF1CF9001BE13B /* Pods_YandexMobileAdsProxy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_YandexMobileAdsProxy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFF891252DD4F2B600E55C85 /* YandexMobileAdsProxy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YandexMobileAdsProxy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFF891302DD4F2BD00E55C85 /* YandexMobileAdsProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YandexMobileAdsProxy.h; sourceTree = "<group>"; };
 		CFF891352DD4F37A00E55C85 /* MobileAdsWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileAdsWrapper.swift; sourceTree = "<group>"; };
@@ -91,37 +90,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFD0E3312DDF1D13001BE13B /* AppMetricaCore.framework in Frameworks */,
-				CFD0E3512DDF1D13001BE13B /* AppMetricaStorageUtils.framework in Frameworks */,
-				CFD0E34B2DDF1D13001BE13B /* AppMetricaPlatform.framework in Frameworks */,
-				CFD0E3652DDF1D13001BE13B /* VGSLFundamentals.framework in Frameworks */,
-				CFD0E35B2DDF1D13001BE13B /* LayoutKit.framework in Frameworks */,
-				CFD0E3572DDF1D13001BE13B /* DivKitBinaryCompatibilityFacade.framework in Frameworks */,
-				CFD0E3612DDF1D13001BE13B /* Serialization.framework in Frameworks */,
-				CFD0E3492DDF1D13001BE13B /* AppMetricaNetwork.framework in Frameworks */,
-				CFD0E3672DDF1D13001BE13B /* VGSLNetworking.framework in Frameworks */,
-				CFD0E35D2DDF1D13001BE13B /* LayoutKitInterface.framework in Frameworks */,
-				CFD0E35F2DDF1D13001BE13B /* Pods_YandexMobileAdsProxy.framework in Frameworks */,
-				CFD0E3472DDF1D13001BE13B /* AppMetricaLogSwift.framework in Frameworks */,
-				CFD0E3552DDF1D13001BE13B /* DivKit.framework in Frameworks */,
-				CFD0E33B2DDF1D13001BE13B /* AppMetricaFMDB.framework in Frameworks */,
-				CF45268E2DDF70FD00FDBAA4 /* YandexMobileAds.framework in Frameworks */,
-				CFD0E3432DDF1D13001BE13B /* AppMetricaLibraryAdapter.framework in Frameworks */,
-				CFD0E33D2DDF1D13001BE13B /* AppMetricaHostState.framework in Frameworks */,
-				CFD0E34D2DDF1D13001BE13B /* AppMetricaProtobuf.framework in Frameworks */,
-				CFD0E3412DDF1D13001BE13B /* AppMetricaKeychain.framework in Frameworks */,
-				CFD0E3592DDF1D13001BE13B /* KSCrash.framework in Frameworks */,
-				CFD0E3332DDF1D13001BE13B /* AppMetricaCoreExtension.framework in Frameworks */,
-				CFD0E3532DDF1D13001BE13B /* AppMetricaSynchronization.framework in Frameworks */,
-				CFD0E3372DDF1D13001BE13B /* AppMetricaCrashes.framework in Frameworks */,
-				CFD0E3352DDF1D13001BE13B /* AppMetricaCoreUtils.framework in Frameworks */,
-				CFD0E3392DDF1D13001BE13B /* AppMetricaEncodingUtils.framework in Frameworks */,
-				CFD0E3632DDF1D13001BE13B /* VGSL.framework in Frameworks */,
-				CFD0E33F2DDF1D13001BE13B /* AppMetricaIdentifiers.framework in Frameworks */,
-				CFD0E3452DDF1D13001BE13B /* AppMetricaLog.framework in Frameworks */,
-				CFD0E3692DDF1D13001BE13B /* VGSLUI.framework in Frameworks */,
-				CFD0E34F2DDF1D13001BE13B /* AppMetricaProtobufUtils.framework in Frameworks */,
-				178DA82059B9341E91273F02 /* Pods_YandexMobileAdsProxy.framework in Frameworks */,
+				E19455F3408C7544490C4B03 /* Pods_YandexMobileAdsProxy.framework in Frameworks */,
+				CF7F140A2F4EFF4600EEDF7A /* AppMetricaCoreUtils.framework in Frameworks */,
+				CF7F14162F4EFF4600EEDF7A /* AppMetricaKeychain.framework in Frameworks */,
+				CF7F14362F4EFF4600EEDF7A /* Serialization.framework in Frameworks */,
+				CF7F143A2F4EFF4600EEDF7A /* VGSLFundamentals.framework in Frameworks */,
+				CF7F14422F4F2D8300EEDF7A /* AppMetricaCrashes.framework in Frameworks */,
+				CF7F140C2F4EFF4600EEDF7A /* AppMetricaCrashes.framework in Frameworks */,
+				CF7F14082F4EFF4600EEDF7A /* AppMetricaCoreExtension.framework in Frameworks */,
+				CF7F142C2F4EFF4600EEDF7A /* DivKitBinaryCompatibilityFacade.framework in Frameworks */,
+				CF7F14102F4EFF4600EEDF7A /* AppMetricaFMDB.framework in Frameworks */,
+				CF7F14322F4EFF4600EEDF7A /* LayoutKitInterface.framework in Frameworks */,
+				CF7F14382F4EFF4600EEDF7A /* VGSL.framework in Frameworks */,
+				CF7F14282F4EFF4600EEDF7A /* AppMetricaSynchronization.framework in Frameworks */,
+				CF7F143C2F4EFF4600EEDF7A /* VGSLNetworking.framework in Frameworks */,
+				CF7F142A2F4EFF4600EEDF7A /* DivKit.framework in Frameworks */,
+				CF7F141C2F4EFF4600EEDF7A /* AppMetricaLogSwift.framework in Frameworks */,
+				CF7F142E2F4EFF4600EEDF7A /* KSCrash.framework in Frameworks */,
+				CF7F14342F4EFF4600EEDF7A /* Pods_YandexMobileAdsProxy.framework in Frameworks */,
+				CF7F14062F4EFF4600EEDF7A /* AppMetricaCore.framework in Frameworks */,
+				CF7F14262F4EFF4600EEDF7A /* AppMetricaStorageUtils.framework in Frameworks */,
+				CF7F141A2F4EFF4600EEDF7A /* AppMetricaLog.framework in Frameworks */,
+				CF7F14142F4EFF4600EEDF7A /* AppMetricaIdentifiers.framework in Frameworks */,
+				CF7F14202F4EFF4600EEDF7A /* AppMetricaPlatform.framework in Frameworks */,
+				CF7F14242F4EFF4600EEDF7A /* AppMetricaProtobufUtils.framework in Frameworks */,
+				CF7F14122F4EFF4600EEDF7A /* AppMetricaHostState.framework in Frameworks */,
+				CF7F143E2F4EFF4600EEDF7A /* VGSLUI.framework in Frameworks */,
+				CF7F14182F4EFF4600EEDF7A /* AppMetricaLibraryAdapter.framework in Frameworks */,
+				CF7F140E2F4EFF4600EEDF7A /* AppMetricaEncodingUtils.framework in Frameworks */,
+				CF7F141E2F4EFF4600EEDF7A /* AppMetricaNetwork.framework in Frameworks */,
+				CF7F14302F4EFF4600EEDF7A /* LayoutKit.framework in Frameworks */,
+				CF7F14222F4EFF4600EEDF7A /* AppMetricaProtobuf.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,41 +136,40 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		1C284C18262380E25F6393AF /* Frameworks */ = {
+		3E082312B02278DB6324EDC0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CFD0E32D2DDF1CF9001BE13B /* Pods_YandexMobileAdsProxy.framework */,
-				CFD0E2CF2DDF158E001BE13B /* AppMetricaCore.framework */,
-				CFD0E2D42DDF158F001BE13B /* AppMetricaCoreExtension.framework */,
-				CFD0E2E42DDF158F001BE13B /* AppMetricaCoreUtils.framework */,
-				CFD0E2E52DDF158F001BE13B /* AppMetricaCrashes.framework */,
-				CFD0E2D22DDF158F001BE13B /* AppMetricaEncodingUtils.framework */,
-				CFD0E2E22DDF158F001BE13B /* AppMetricaFMDB.framework */,
-				CFD0E2DD2DDF158F001BE13B /* AppMetricaHostState.framework */,
-				CFD0E2EA2DDF158F001BE13B /* AppMetricaIdentifiers.framework */,
-				CFD0E2DE2DDF158F001BE13B /* AppMetricaKeychain.framework */,
-				CFD0E2EC2DDF158F001BE13B /* AppMetricaLibraryAdapter.framework */,
-				CFD0E2E02DDF158F001BE13B /* AppMetricaLog.framework */,
-				CFD0E2D62DDF158F001BE13B /* AppMetricaLogSwift.framework */,
-				CFD0E2E82DDF158F001BE13B /* AppMetricaNetwork.framework */,
-				CFD0E2D02DDF158E001BE13B /* AppMetricaPlatform.framework */,
-				CFD0E2E32DDF158F001BE13B /* AppMetricaProtobuf.framework */,
-				CFD0E2DA2DDF158F001BE13B /* AppMetricaProtobufUtils.framework */,
-				CFD0E2DF2DDF158F001BE13B /* AppMetricaStorageUtils.framework */,
-				CFD0E2D32DDF158F001BE13B /* AppMetricaSynchronization.framework */,
-				CFD0E2E72DDF158F001BE13B /* DivKit.framework */,
-				CFD0E2E92DDF158F001BE13B /* DivKitBinaryCompatibilityFacade.framework */,
-				CFD0E2D72DDF158F001BE13B /* KSCrash.framework */,
-				CFD0E2D92DDF158F001BE13B /* LayoutKit.framework */,
-				CFD0E2D52DDF158F001BE13B /* LayoutKitInterface.framework */,
-				CFD0E2E12DDF158F001BE13B /* Pods_YandexMobileAdsProxy.framework */,
-				CFD0E2EB2DDF158F001BE13B /* Serialization.framework */,
-				CFD0E2E62DDF158F001BE13B /* VGSL.framework */,
-				CFD0E2D12DDF158F001BE13B /* VGSLFundamentals.framework */,
-				CFD0E2DB2DDF158F001BE13B /* VGSLNetworking.framework */,
-				CFD0E2D82DDF158F001BE13B /* VGSLUI.framework */,
-				CFD0E2DC2DDF158F001BE13B /* YandexMobileAds.framework */,
-				6EE12770A732740EAEEFF998 /* Pods_YandexMobileAdsProxy.framework */,
+				CF7F14412F4F2D8300EEDF7A /* AppMetricaCrashes.framework */,
+				CF7F13E92F4EFF4600EEDF7A /* AppMetricaCore.framework */,
+				CF7F13EA2F4EFF4600EEDF7A /* AppMetricaCoreExtension.framework */,
+				CF7F13EB2F4EFF4600EEDF7A /* AppMetricaCoreUtils.framework */,
+				CF7F13EC2F4EFF4600EEDF7A /* AppMetricaCrashes.framework */,
+				CF7F13ED2F4EFF4600EEDF7A /* AppMetricaEncodingUtils.framework */,
+				CF7F13EE2F4EFF4600EEDF7A /* AppMetricaFMDB.framework */,
+				CF7F13EF2F4EFF4600EEDF7A /* AppMetricaHostState.framework */,
+				CF7F13F02F4EFF4600EEDF7A /* AppMetricaIdentifiers.framework */,
+				CF7F13F12F4EFF4600EEDF7A /* AppMetricaKeychain.framework */,
+				CF7F13F22F4EFF4600EEDF7A /* AppMetricaLibraryAdapter.framework */,
+				CF7F13F32F4EFF4600EEDF7A /* AppMetricaLog.framework */,
+				CF7F13F42F4EFF4600EEDF7A /* AppMetricaLogSwift.framework */,
+				CF7F13F52F4EFF4600EEDF7A /* AppMetricaNetwork.framework */,
+				CF7F13F62F4EFF4600EEDF7A /* AppMetricaPlatform.framework */,
+				CF7F13F72F4EFF4600EEDF7A /* AppMetricaProtobuf.framework */,
+				CF7F13F82F4EFF4600EEDF7A /* AppMetricaProtobufUtils.framework */,
+				CF7F13F92F4EFF4600EEDF7A /* AppMetricaStorageUtils.framework */,
+				CF7F13FA2F4EFF4600EEDF7A /* AppMetricaSynchronization.framework */,
+				CF7F13FB2F4EFF4600EEDF7A /* DivKit.framework */,
+				CF7F13FC2F4EFF4600EEDF7A /* DivKitBinaryCompatibilityFacade.framework */,
+				CF7F13FD2F4EFF4600EEDF7A /* KSCrash.framework */,
+				CF7F13FE2F4EFF4600EEDF7A /* LayoutKit.framework */,
+				CF7F13FF2F4EFF4600EEDF7A /* LayoutKitInterface.framework */,
+				CF7F14002F4EFF4600EEDF7A /* Pods_YandexMobileAdsProxy.framework */,
+				CF7F14012F4EFF4600EEDF7A /* Serialization.framework */,
+				CF7F14022F4EFF4600EEDF7A /* VGSL.framework */,
+				CF7F14032F4EFF4600EEDF7A /* VGSLFundamentals.framework */,
+				CF7F14042F4EFF4600EEDF7A /* VGSLNetworking.framework */,
+				CF7F14052F4EFF4600EEDF7A /* VGSLUI.framework */,
+				A0D43B49FACA6EB5F62FE062 /* Pods_YandexMobileAdsProxy.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -185,7 +183,7 @@
 				CFF891312DD4F2BD00E55C85 /* YandexMobileAdsProxy */,
 				CFF891262DD4F2B600E55C85 /* Products */,
 				09FCF28B0CB4F37A9ED4F531 /* Pods */,
-				1C284C18262380E25F6393AF /* Frameworks */,
+				3E082312B02278DB6324EDC0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};

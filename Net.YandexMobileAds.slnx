@@ -1,0 +1,10 @@
+<Solution>
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="YMA-iOS" />
+  </Configurations>
+  <Project Path="Net.YandexMobileAds.iOS/Net.YandexMobileAds.iOS.csproj" />
+  <Project Path="Playground.iOS/Playground.iOS.csproj">
+    <Build Solution="*|Any CPU" Project="false" />
+  </Project>
+</Solution>

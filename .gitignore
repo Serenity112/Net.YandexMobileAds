@@ -11,6 +11,7 @@ Native/iOS/YandexMobileAdsProxy/archives
 Native/iOS/YandexMobileAdsProxy/Pods
 Native/iOS/YandexMobileAdsProxy/Frameworks
 Native/iOS/YandexMobileAdsProxy/xcframeworks
+Native/iOS/YandexMobileAdsProxy/Podfile.lock
 
 # globs
 Makefile.in

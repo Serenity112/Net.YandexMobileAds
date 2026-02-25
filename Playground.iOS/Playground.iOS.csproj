@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>net8.0-ios</TargetFramework>
+        <TargetFramework>net10.0-ios</TargetFramework>
         <OutputType>Exe</OutputType>
         <Nullable>enable</Nullable>
         <ImplicitUsings>true</ImplicitUsings>
@@ -12,9 +12,17 @@
         <CreatePackage>false</CreatePackage>
     </PropertyGroup>
 
+    <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+        <RuntimeIdentifiers>ios-arm64</RuntimeIdentifiers>
+        <MtouchInterpreter>-all</MtouchInterpreter>
+        <MtouchUseLlvm>false</MtouchUseLlvm>
+        <MtouchLink>SdkOnly</MtouchLink>
+        <EnableAssemblyILStripping>false</EnableAssemblyILStripping>
+    </PropertyGroup>
+
     <ItemGroup>
         <Reference Include="Net.YandexMobileAds.iOS">
-            <HintPath>..\Net.YandexMobileAds.iOS\bin\Release\net8.0-ios\Net.YandexMobileAds.iOS.dll</HintPath>
+            <HintPath>..\Net.YandexMobileAds.iOS\bin\Release\net10.0-ios\ios-arm64\Net.YandexMobileAds.iOS.dll</HintPath>
         </Reference>
     </ItemGroup>
 
